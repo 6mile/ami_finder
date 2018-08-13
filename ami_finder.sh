@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# Variables
-regions=$(aws ec2 describe-regions --output text | cut -f3 | sort)
-
 if [ -z $1 ]; then echo "You must provide a Product ID."; exit 0; fi
 
+regions=$(aws ec2 describe-regions --output text | cut -f3 | sort)
+
+
 echo
-echo "============================"
+echo "==========================="
 echo "AWS Region | ami_id"
-echo "============================"
+echo "==========================="
 
 for i in $regions; 
 do 
