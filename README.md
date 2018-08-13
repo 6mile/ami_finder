@@ -30,10 +30,12 @@ us-east-2 | ami-b0a192d5
 us-west-1 | ami-ce4c51ae
 us-west-2 | ami-bd3856c5
 
-#### If you don't know how to find your AWS Marketplace Code ####
+### If you don't know how to find your AWS Marketplace Code ###
 If you don't know how to find your AWS Marketplace Product Code you can browse to the page (example: https://aws.amazon.com/marketplace/pp/B076VHD29K) and in the upper right hand corner is a "Continue to Subscribe" button.  Click on the button and it will take you to the subscription page for this product.  The url will include the product id.  Cut and paste it and use that with the ami_finder.sh script.
 
 Here's an example: https://aws.amazon.com/marketplace/server/procurement?productId=1459a17b-abde-428d-8b9f-dac876e6ab87
 
 In this example the Product Id is **1459a17b-abde-428d-8b9f-dac876e6ab87**
+
+This [website](https://blog.gruntwork.io/locating-aws-ami-owner-id-and-image-name-for-packer-builds-7616fe46b49a) gives a good description of how to find the Product ID.
 
