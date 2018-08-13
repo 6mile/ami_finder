@@ -12,7 +12,7 @@ To will need to pass the script a valid AWS Marketplace Product ID:
 
 You will get an alphabetically sorted list of the AMIs for that Product ID for all regions:
 
-| Region | ami_id |
+| AWS Region | ami_id |
 | ------------- |:-------------:|
 ap-northeast-1 | ami-ed2b3191
 ap-northeast-2 | ami-e32d838d
